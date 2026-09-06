@@ -4,6 +4,9 @@ import sidebar from './sidebar.mts'
 export default defineConfig({
   base: "/gd-physics-encyclopedia/",
   title: "GDPE",
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ],
   description: "Official documentation for Geometry Dash's player physics!",
   themeConfig: {
 
