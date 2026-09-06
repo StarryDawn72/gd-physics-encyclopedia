@@ -32,7 +32,7 @@ The game marks an object as "oriented" if the following conditions are true:
 *Note: the third condition is `(int)getRotation() % 90 != 0` in the game's code, meaning rotation gets truncated before the remainder is calculated, therefore values near 0, such as 0.5, count as "false" even though they're not axis-aligned.*
 
 ### Usage
-Only if these conditions are true does the game check overlap against the two oriented boxes (player against object) using the SAT collision algorithm instead of AABB.
+Only if these conditions are true does the game check overlap against the two oriented boxes (player against object) using the [SAT collision algorithm](https://www.google.com/search?q=separating+axis+theorem) instead of [AABB](https://www.google.com/search?q=AABB+collision+algorithm).
 
 ## Circular collisions
 The player's circular hitbox's diameter is always equal to the size of the outer square hitbox. The physics engine handles collisions in two ways.
