@@ -150,7 +150,7 @@ bold, strong {
 }
 
 #VPContent.is-home {
-    background-image: url(background.svg);
+    background-image: url(/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
