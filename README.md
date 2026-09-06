@@ -1,4 +1,4 @@
-# Geometry Dash Physics Encyclopedia
+# Geometry Dash Physics Encyclopedia (EARLY WIP)
 ### Enhance your GD physics knowledge!
 
 <p align="center">
