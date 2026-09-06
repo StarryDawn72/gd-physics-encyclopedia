@@ -12,10 +12,7 @@ hero:
       link: hitboxes.md
     - theme: alt
       text: Contribute
-      link: hitboxes.md # TODO change this
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+      link: https://github.com/StarryDawn72/gd-physics-encyclopedia#contribution
 
 # features:
 #   - title: Feature A
